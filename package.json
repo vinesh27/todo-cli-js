@@ -1,0 +1,35 @@
+{
+  "name": "todo-cli-js",
+  "version": "1.0.0",
+  "description": "A persistent todo app which can be used from the CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "todo-cli": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinesh27/todo-cli-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm",
+    "npx",
+    "js"
+  ],
+  "author": "vinesh27 <https://github.com/vinesh27>",
+  "license": "GNU GPL v3.0",
+  "bugs": {
+    "url": "https://github.com/vinesh27/todo-cli-js/issues"
+  },
+  "homepage": "https://github.com/vinesh27/todo-cli-js#readme",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "inquirer": "^8.2.2"
+  }
+}
